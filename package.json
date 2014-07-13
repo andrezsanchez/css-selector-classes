@@ -1,7 +1,7 @@
 {
   "name": "css-selector-classes",
   "version": "0.1.0",
-  "description": "",
+  "description": "Get every class in a CSS selector",
   "homepage": "https://github.com/andrezsanchez/css-selector-classes",
   "repository": {
     "type": "git",
