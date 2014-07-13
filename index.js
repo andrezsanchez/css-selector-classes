@@ -21,7 +21,6 @@ module.exports = getCssSelectorClasses
 function getCssSelectorClasses(selector) {
   var list = []
   var ast = cssSelector.parse(selector)
-  console.log(ast)
   visitRules(ast, function(ruleSet) {
     if (ruleSet.classNames) {
       list = list.concat(ruleSet.classNames)
