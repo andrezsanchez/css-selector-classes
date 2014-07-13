@@ -1,0 +1,35 @@
+{
+  "name": "css-selector-classes",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/andrezsanchez/css-selector-classes",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrezsanchez/css-selector-classes"
+  },
+  "author": {
+    "name": "Andre Z. Sanchez",
+    "email": "andrezacsanchez@gmail.com",
+    "url": "http://andrezs.com"
+  },
+  "keywords": [
+    "css",
+    "selector",
+    "classes"
+  ],
+  "dependencies": {
+    "lodash.uniq": "~2.4.1",
+    "css-selector-parser": "~1.0.3"
+  },
+  "devDependencies": {
+    "tap-spec": "~0.2.0",
+    "tap": "~0.4.11"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "license": "MIT"
+}
