@@ -15,7 +15,9 @@
   "keywords": [
     "css",
     "selector",
-    "classes"
+    "classes",
+    "class",
+    "list"
   ],
   "dependencies": {
     "lodash.uniq": "~2.4.1",
