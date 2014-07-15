@@ -2,6 +2,8 @@
 
 [![build status](https://secure.travis-ci.org/andrezsanchez/css-selector-classes.png)](http://travis-ci.org/andrezsanchez/css-selector-classes)
 
+[![browser support](https://ci.testling.com/andrezsanchez/css-selector-classes.png)](http://ci.testling.com/andrezsanchez/css-selector-classes)
+
 # example
 
 ```javascript
