@@ -5,6 +5,7 @@ var uniq = require('lodash.uniq')
 var CssSelectorParser = require('css-selector-parser').CssSelectorParser
 var cssSelector = new CssSelectorParser()
 
+cssSelector.registerSelectorPseudos('not')
 cssSelector.registerNestingOperators('>', '+', '~');
 cssSelector.registerAttrEqualityMods('^', '$', '*', '~');
 
