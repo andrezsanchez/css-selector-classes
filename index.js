@@ -37,6 +37,13 @@ function visitRules(node, fn) {
       visitRules(node, fn)
     })
   }
+  if (node.pseudos) {
+    node.pseudos.forEach(function(pseudo) {
+      if (pseudo.valueType === 'selector') {
+        visitRules(pseudo.value, fn)
+      }
+    })
+  }
   if (node.type === 'rule') {
     fn(node)
   }
