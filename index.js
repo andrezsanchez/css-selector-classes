@@ -1,6 +1,6 @@
 'use strict';
 
-var uniq = require('lodash.uniq')
+var uniq = require('array-uniq')
 
 var CssSelectorParser = require('css-selector-parser').CssSelectorParser
 var cssSelector = new CssSelectorParser()

@@ -20,7 +20,7 @@
     "list"
   ],
   "dependencies": {
-    "lodash.uniq": "~2.4.1",
+    "array-uniq": "^1.0.2",
     "css-selector-parser": "~1.0.3"
   },
   "devDependencies": {
